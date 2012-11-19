@@ -26,10 +26,10 @@ int main(int argc, char **argv){
   }
  
   if(argv[1][0] == '1')
-    for(i = 0; i < 0xFFFFFFF; ++i)
+    for(i = 0; i < 0xFFFFFFFF; ++i)
       a.v = a.v * b.v;
   else if(argv[1][0] == '2')
-    for(i = 0; i < 0xFFFFFFF; ++i)
+    for(i = 0; i < 0xFFFFFFFF; ++i)
       for(j = 0; j < 4; ++j)
     aa[j] = aa[j] * bb[j];
   else
