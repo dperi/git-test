@@ -59,12 +59,21 @@ int run_test2()
    return 0;
 }
 
+
+
 int main(int argc, char **argv)
 {
 
    if (argc < 2)
       usage(argv);
 
+   time_t seconds;
+   clock_t ticks;
+   ticks = clock();
+
+   printf("ticks %i\n", int(ticks));
+
+   return 0;
 
    if (argv[1][0] == '1')
       run_test1();
