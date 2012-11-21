@@ -20,6 +20,8 @@ void usage(char **argv)
 int run_test1()
 {
 
+   printf("Starting test #1\n");
+
    int aa[4] = { 1, 2, 3, 4 },
                bb[4] = { 4, 3, 2, 1 };
    v4si_u a, b;
@@ -39,6 +41,8 @@ int run_test1()
 
 int run_test2()
 {
+
+   printf("Starting test #2\n");
 
    int aa[4] = { 1, 2, 3, 4 },
                bb[4] = { 4, 3, 2, 1 };
