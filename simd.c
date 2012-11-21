@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+
 
 typedef int v4si __attribute__ ((vector_size (16)));
 typedef union {
